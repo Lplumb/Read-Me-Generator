@@ -44,6 +44,30 @@ ${renderLicenseLink(data.license)}
 * [Questions](#questions)
 
 ${renderLicenseSection(data.license)}
+
+## Installation
+Too install necessary dependencies, run the following command:
+
+~~~
+${data.installation}
+~~~
+
+## Usage
+
+${data.description}
+
+## Contributing
+
+${data.contribution}
+
+## Tests
+
+${data.test}
+
+## Questions
+
+If you have any questions you can contact me at ${data.email}. You can also fine more projects at [username](https://github.com/${data.github})
+
 `;
 }
 

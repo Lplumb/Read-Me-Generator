@@ -9,13 +9,43 @@ const layout = require('./utils/generateMarkdown')
 const questions = [{
     type: "input",
     name: "title",
-    message: "What is the title of the repo?"
+    message: "What is the title of the project?"
 },
 {
     type: "list",
     name: "license",
-    message: "what kind of license would you like?",
+    message: "What kind of license would you like?(use arrow keys)",
     choices: ["MIT", "ISC", "none"]
+},
+{
+    type: "input",
+    name: "email",
+    message: "What is your Email?"
+},
+{
+    type: "input",
+    name: "github",
+    message: "What is your GitHub username",
+},
+{
+    type: "input",
+    name: "description",
+    message: "Give a description of the project",
+},
+{
+    type: "input",
+    name: "installation",
+    message: "What commands do you need to use to install dependencies?",
+},
+{
+    type: "input",
+    name: "contribution",
+    message: "What can a user contribute to the project?"
+},
+{
+    type: "input",
+    name: "test",
+    message: "What commands to use to test?"
 },
 ];
 
