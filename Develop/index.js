@@ -14,7 +14,7 @@ const questions = [{
 {
     type: "list",
     name: "license",
-    message: "What kind of license would you like?(use arrow keys)",
+    message: "What kind of license would you like?",
     choices: ["MIT", "ISC", "none"]
 },
 {
@@ -25,12 +25,12 @@ const questions = [{
 {
     type: "input",
     name: "github",
-    message: "What is your GitHub username",
+    message: "What is your GitHub username?",
 },
 {
     type: "input",
     name: "description",
-    message: "Give a description of the project",
+    message: "Give a description of the project: ",
 },
 {
     type: "input",
@@ -39,14 +39,15 @@ const questions = [{
 },
 {
     type: "input",
-    name: "contribution",
-    message: "What can a user contribute to the project?"
-},
-{
-    type: "input",
     name: "test",
     message: "What commands to use to test?"
 },
+{
+    type: "input",
+    name: "contribution",
+    message: "What can a user contribute to the project?"
+},
+
 ];
 
 // TODO: Create a function to write README file

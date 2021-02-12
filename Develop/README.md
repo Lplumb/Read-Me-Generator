@@ -28,11 +28,11 @@ npm i
 
 ## Usage
 
-Generates a read me for a project
+Creates a read me for a coding project
 
 ## Contributing
 
-nothing 
+nothing
 
 ## Tests
 
@@ -40,5 +40,5 @@ npm test
 
 ## Questions
 
-If you have any questions you can contact me at lplumb091999@gmail.com. You can also fine more projects at [username](https://https://github.com/lplumb)
+If you have any questions you can contact me at llplumb091999@gmail.com. You can also fine more projects at [username](https://github.com/lplumb)
 

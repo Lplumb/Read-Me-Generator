@@ -4,6 +4,8 @@
 function renderLicenseBadge(license) {
   if (license !== "none"){
   return `![github license](https://img.shields.io/badge/license-${license}-blue.png)`
+  } else {
+    return ""
   }
 }
 
@@ -12,6 +14,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "none"){
     return `\n* [License](#license)`
+    } else {
+      return ""
     }
 }
 
@@ -22,6 +26,8 @@ function renderLicenseSection(license) {
     return `## License
   This project is licensed under the ${license} license.
     `
+    } else {
+      return ""
     }
 }
 
